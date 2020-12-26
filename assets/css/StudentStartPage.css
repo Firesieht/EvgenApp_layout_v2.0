@@ -1,0 +1,75 @@
+.myBody{
+    background-image: url(/assets/images/BG.svg);
+}
+
+.center{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap:3vw;
+
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 4vw;
+
+    letter-spacing: 0.2px;
+
+    color: #373F41;
+}
+
+.myInput{
+    margin-left: 2vw;
+    transition: 0.3s;
+    align-items: center;
+    border:none;
+    background: #FFFFFF;
+    border-radius: 1vw;
+    width: 35vw;
+    height: 7vw;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: center;
+    text-align-last: center;
+
+    color: #000000;
+    appearance: url(/assets/images/shape.svg);
+
+    filter: drop-shadow(0px 4px 10px rgba(145, 206, 194, 0.45));
+}
+input::placeholder { color: black; }
+
+.myButton{
+    margin-left: 2vw;
+    align-items: center;
+    border:none;
+    background: #1EA5FC;
+    border-radius: 1vw;
+    width: 35vw;
+    height: 7vw;
+
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: center;
+    text-align-last: center;
+
+
+    filter: drop-shadow(0px 4px 10px rgba(145, 206, 194, 0.45));
+}
+.myDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
