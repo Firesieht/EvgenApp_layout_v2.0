@@ -1,7 +1,7 @@
 .myBody{
+    background: linear-gradient(128.7deg, #CFF1D6 8.32%, rgba(208, 242, 177, 0) 70.33%);
     background-image: url(/assets/images/BG.svg);
 }
-
 .center{
     display: flex;
     align-items:center;
