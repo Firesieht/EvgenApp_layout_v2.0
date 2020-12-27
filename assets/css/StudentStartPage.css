@@ -68,6 +68,12 @@ input::placeholder { color: black; }
 
     filter: drop-shadow(0px 4px 10px rgba(145, 206, 194, 0.45));
 }
+.myButton:hover{
+    background: #51b9ff;
+}
+.myButton:active{
+    background: #0092f3;
+}
 .myDiv{
     display: flex;
     justify-content: center;
